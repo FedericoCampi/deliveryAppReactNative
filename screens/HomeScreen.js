@@ -32,7 +32,7 @@ export default function HomeScreen() {
           <View className='flex-row items-center space-x-1 border-0 border-l-2 pl-2 border-l-gray-300'>
             <Icon.MapPin height='20' width='20' stroke='gray'/>
             <Text className='text-gray-600'>
-              New York, NYC
+              Buenos Aires, ARG
             </Text>
           </View>
         </View>

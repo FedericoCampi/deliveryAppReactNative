@@ -87,7 +87,7 @@ export default function CartScreen() {
                         <Text className='flex-1 font-bold text-gray-700'>{dish.name}</Text>
                         <Text className='font-semibold text-base'>${dish.price}</Text>
                         <TouchableOpacity 
-                            onPress={() => dispatch(removeFromCart({id: dish.id}))}
+                            onPress={() => dispatch(removeFromCart({id: dish._id}))}
                             className='p-1 rounded-full'
                             style={{backgroundColor: themeColors.bgColor(1)}}>
                             <Icon.Minus strokeWidth={2} height={20} width={20} stroke='white'/>
